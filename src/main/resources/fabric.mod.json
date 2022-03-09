@@ -4,8 +4,20 @@
   "version": "1.0.0",
   "name": "ControlClick",
   "description": "Bind control click to left click instead of right click for Mac users.",
-  "authors": [],
-  "contact": {},
+  "authors": [
+    {
+      "name": "Stefan Nienhuis",
+      "contact": {
+        "email": "stefan@nienhuisdevelopment.com"
+      }
+    }
+  ],
+  "contact": {
+    "email": "stefan@nienhuisdevelopment.com",
+    "homepage": "https://github.com/StefanNienhuis/ControlClick",
+    "issues": "https://github.com/StefanNienhuis/ControlClick/issues",
+    "sources": "https://github.com/StefanNienhuis/ControlClick"
+  },
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
