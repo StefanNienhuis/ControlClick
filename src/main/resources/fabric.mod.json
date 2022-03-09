@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "controlclick",
+  "version": "1.0.0",
+  "name": "ControlClick",
+  "description": "Bind control click to left click instead of right click for Mac users.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.nienhuisdevelopment.controlclick.client.ControlClickClient"
+    ],
+    "main": [
+      "com.nienhuisdevelopment.controlclick.ControlClick"
+    ]
+  },
+  "mixins": [
+    "controlclick.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
